@@ -1,0 +1,7 @@
+{
+    "gPlayerMoveFlagUp": 2,
+    "gPlayerMoveFlagDown": 3,
+    "gPlayerMoveFlagLeft": 1,
+    "gPlayerMoveFlagRight": 0,
+    "gQuitCommand": 13
+}
