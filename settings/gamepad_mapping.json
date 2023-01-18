@@ -1,7 +1,7 @@
 {
-    "gPlayerMoveFlagUp": 2,
-    "gPlayerMoveFlagDown": 3,
-    "gPlayerMoveFlagLeft": 1,
-    "gPlayerMoveFlagRight": 0,
-    "gQuitCommand": 13
+    "gPlayerMoveFlagUp": "JOY_LEFT_UP",
+    "gPlayerMoveFlagDown": "JOY_LEFT_DOWN",
+    "gPlayerMoveFlagLeft": "JOY_LEFT_LEFT",
+    "gPlayerMoveFlagRight": "JOY_LEFT_RIGHT",
+    "gQuitCommand": "SELECT"
 }
