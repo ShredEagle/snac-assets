@@ -1,7 +1,22 @@
 {
-    "gPlayerMoveFlagUp": "z",
-    "gPlayerMoveFlagDown": "s",
-    "gPlayerMoveFlagLeft": "q",
-    "gPlayerMoveFlagRight": "d",
-    "gQuitCommand": "esc"
+    "player": {
+        "gPlayerMoveFlagUp": "z",
+        "gPlayerMoveFlagDown": "s",
+        "gPlayerMoveFlagLeft": "q",
+        "gPlayerMoveFlagRight": "d",
+        "gQuitCommand": "esc"
+    },
+    "unbound": {
+        "gJoin": "enter",
+        "gQuitCommand": "esc"
+    },
+    "menu": {
+        "gSelectItem": "enter",
+        "gBack": "esc",
+        "gGoUp": "up",
+        "gGoDown": "down",
+        "gGoLeft": "left",
+        "gGoRight": "right",
+        "gQuitCommand": "esc"
+    }
 }

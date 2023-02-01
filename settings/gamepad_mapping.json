@@ -1,7 +1,22 @@
 {
-    "gPlayerMoveFlagUp": "JOY_LEFT_UP",
-    "gPlayerMoveFlagDown": "JOY_LEFT_DOWN",
-    "gPlayerMoveFlagLeft": "JOY_LEFT_LEFT",
-    "gPlayerMoveFlagRight": "JOY_LEFT_RIGHT",
-    "gQuitCommand": "SELECT"
+    "player": {
+        "gPlayerMoveFlagUp": "JOY_LEFT_UP",
+        "gPlayerMoveFlagDown": "JOY_LEFT_DOWN",
+        "gPlayerMoveFlagLeft": "JOY_LEFT_LEFT",
+        "gPlayerMoveFlagRight": "JOY_LEFT_RIGHT",
+        "gQuitCommand": "SELECT"
+    },
+    "unbound": {
+        "gJoin": "START",
+        "gQuitCommand": "SELECT"
+    },
+    "menu": {
+        "gSelectItem": "START",
+        "gBack": "B",
+        "gGoUp": "JOY_LEFT_UP",
+        "gGoDown": "JOY_LEFT_DOWN",
+        "gGoLeft": "JOY_LEFT_LEFT",
+        "gGoRight": "JOY_LEFT_RIGHT",
+        "gQuitCommand": "SELECT"
+    }
 }

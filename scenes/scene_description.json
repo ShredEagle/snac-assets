@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Main",
+        "transition": [
+            {
+                "transition": "settings", 
+                "target": "Settings"
+            },
+            {
+                "transition": "start", 
+                "target": "Game"
+            }
+        ]
+    },
+    {
+        "name": "Settings",
+        "transition": [
+            {
+                "transition": "quit", 
+                "target": "Main"
+            }
+        ]
+    },
+    {
+        "name": "Game",
+        "transition": [
+            {
+                "transition": "back", 
+                "target": "Main"
+            }
+        ]
+    }
+]
