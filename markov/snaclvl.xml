@@ -34,7 +34,7 @@
           <rule in="UE" out="UU"/>
           <rule in="UR" out="UU"/>
           <rule in="Us" out="UU"/>
-          <observe value="s" to="Us" />
+          <observe value="s" to="U" />
           <observe value="R" to="U" />
           <observe value="U" to="U" />
           <observe value="E" to="EU" />
@@ -98,9 +98,9 @@
               <rule in="PAP" out="PUP"/>
           </one>
           <all in="PAF" out="PUs"/>
-          <all in="FU" out="FI"/>
       </markov>
       <all in="S" out="F"/>
+      <all in="s" out="F"/>
       <all in="R" out="F"/>
       <one in="FA" out="YA" steps="1"/>
   </markov>
@@ -116,11 +116,7 @@
   <all steps="1">
       <rule in="Pt" out="Nt"/>
   </all>
-  <one steps="1" temperature="1.0">
-      <rule in="W" out="I"/>
-      <field for="I" to="N" on="tWAUP"/>
-  </one>
-  <one in="NtI" out="WAW"/>
+  <one in="NtW" out="WAW" steps="1"/>
   <all in="U" out="A"/>
   <all in="P" out="W"/>
   <all in="N" out="W"/>
